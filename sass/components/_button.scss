@@ -1,0 +1,22 @@
+.btn {
+  display: block;
+  width: 70%;
+  background-color: $color-white;
+  font-family: "Lato", sans-serif;
+  color: $color-primary-dark;
+  border: 1px solid $color-primary-dark;
+  border-radius: 2px;
+  padding: 0.7rem 2rem;
+
+  cursor: pointer;
+
+  &:hover {
+    background-color: $color-primary-dark;
+    color: $color-white;
+    transition: 0.3s;
+  }
+
+  &__login {
+    margin-left: 2rem;
+  }
+}

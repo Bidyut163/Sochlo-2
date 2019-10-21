@@ -1,0 +1,49 @@
+.showcase {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 3rem 3rem 3rem 0;
+
+  &__content {
+    flex: 0 0 60%;
+
+    cursor: pointer;
+    margin-right: 5rem;
+
+    &--img-box {
+      height: 30rem;
+      width: 35rem;
+    }
+
+    &--img {
+      height: 100%;
+      width: 100%;
+    }
+
+    & > * {
+      margin-bottom: 1rem;
+    }
+
+    &:hover {
+      opacity: 0.8;
+      transition: 0.3s;
+    }
+  }
+
+  &__sidebar {
+    flex: 1;
+
+    &--list {
+      list-style-type: none;
+
+      & > * {
+        margin-bottom: 3rem;
+        cursor: pointer;
+
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+    }
+  }
+}
